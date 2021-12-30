@@ -76,7 +76,7 @@ export default function TextForm(props) {
 
         </div>
         <div className="container">
-            <h3>Your text Sumarry</h3>
+            <h3>Your text Sumarry is given below</h3>
             {/* <p>{count_words(text)} words and {text.length} characters.</p> */}
             <p>{text.split(" ").length} words and {text.length} characters.</p>
         </div>
