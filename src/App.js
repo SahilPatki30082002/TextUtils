@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 
-
+// This is a comment
 function App() {
   const [mode, setMode] = useState('light');
   const [modeText, setModeText] = useState('Enable Dark Mode');
